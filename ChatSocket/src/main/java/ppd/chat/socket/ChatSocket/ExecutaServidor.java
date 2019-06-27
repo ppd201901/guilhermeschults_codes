@@ -2,6 +2,13 @@ package ppd.chat.socket.ChatSocket;
 
 import java.io.IOException;
 
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* Classe main do servidor que sobe as portas do mesmo deixado-as online.
+*/
+
 public class ExecutaServidor {
 
 	public static void main(String[] args) throws IOException 

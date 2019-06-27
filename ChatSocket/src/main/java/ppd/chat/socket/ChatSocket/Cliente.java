@@ -6,15 +6,22 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* Classe que passa o endereco do cliente e sua porta, por socket, para conexao com servidor.
+*/
+
 public class Cliente 
 {
 
 	private String host;
 	private int porta;
 
-	public Cliente(String host, int porta) 
+	public Cliente(String url, int porta) 
 	{
-		this.host = host;
+		this.host = url;
 		this.porta = porta;
 	}
 

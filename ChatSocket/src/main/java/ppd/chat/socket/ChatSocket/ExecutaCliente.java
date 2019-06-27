@@ -2,6 +2,12 @@ package ppd.chat.socket.ChatSocket;
 
 import java.io.IOException;
 import java.rmi.UnknownHostException;
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* Classe main do cliente que faz a conexao dos clientes com o servidor.
+*/
 
 public class ExecutaCliente {
 

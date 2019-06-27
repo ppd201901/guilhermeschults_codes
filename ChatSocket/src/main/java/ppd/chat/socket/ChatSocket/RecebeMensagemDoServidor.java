@@ -3,6 +3,13 @@ package ppd.chat.socket.ChatSocket;
 import java.io.InputStream;
 import java.util.Scanner;
 
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* Classe que trata as mensagens recebidas no servidor.
+*/
+
 public class RecebeMensagemDoServidor implements Runnable
 {
 	

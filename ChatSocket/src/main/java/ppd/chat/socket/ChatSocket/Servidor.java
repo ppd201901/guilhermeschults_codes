@@ -7,6 +7,14 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* 
+* Classe servidor que inicializa as portas do servidos, deixando-as abertas
+* aguardando conexao com algum cliente.
+*/
 
 public class Servidor 
 {

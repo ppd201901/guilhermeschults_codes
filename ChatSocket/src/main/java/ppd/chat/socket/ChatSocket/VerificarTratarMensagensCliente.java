@@ -4,6 +4,14 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+*
+* @author Guilherme Ferreira Schults
+* 
+* 
+* Classe que trata as mensagens dos clientes enviadas por socket ao servidor.
+*/
+
 public class VerificarTratarMensagensCliente implements Runnable
 {
 	
